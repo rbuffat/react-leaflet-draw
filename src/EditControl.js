@@ -128,6 +128,8 @@ EditControl.propTypes = {
   edit: PropTypes.shape({
     edit: PropTypes.oneOfType([PropTypes.object, PropTypes.bool]),
     remove: PropTypes.oneOfType([PropTypes.object, PropTypes.bool]),
+    poly: PropTypes.oneOfType([PropTypes.object, PropTypes.bool]),
+    allowIntersection: PropTypes.bool,
   }),
   position: PropTypes.oneOf([
     'topright',
