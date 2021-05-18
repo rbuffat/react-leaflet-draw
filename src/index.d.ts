@@ -27,8 +27,10 @@ interface EditControlProps {
     circlemarker?: DrawOptions.CircleOptions | boolean;
   },
   edit: {
-    edit?: DrawOptions.EditHandlerOptions | DrawOptions.EditPolyOptions | false;
-    remove?: null | false;
+    edit?: DrawOptions.EditHandlerOptions | false;
+    remove?: any | false;
+    poly?: DrawOptions.EditPolyOptions
+    allowIntersection?: boolean;
   }
 
   position: ControlPosition,
