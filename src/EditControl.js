@@ -123,6 +123,7 @@ EditControl.propTypes = {
     rectangle: PropTypes.oneOfType([PropTypes.object, PropTypes.bool]),
     circle: PropTypes.oneOfType([PropTypes.object, PropTypes.bool]),
     marker: PropTypes.oneOfType([PropTypes.object, PropTypes.bool]),
+    circlemarker: PropTypes.oneOfType([PropTypes.object, PropTypes.bool]),
   }),
   edit: PropTypes.shape({
     edit: PropTypes.oneOfType([PropTypes.object, PropTypes.bool]),
